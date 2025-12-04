@@ -272,22 +272,6 @@ export default function HeroSection() {
               >
                 resolvido
               </motion.span>
-              <motion.svg
-                className="absolute -bottom-2 left-0 w-full h-3 text-primary"
-                viewBox="0 0 200 12"
-                preserveAspectRatio="none"
-              >
-                <motion.path
-                  d="M0 6C50 6 50 2 100 2C150 2 150 10 200 10"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  animate={{ pathLength: 1, opacity: 1 }}
-                  transition={{ duration: 0.8, delay: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
-                />
-              </motion.svg>
               
               {/* Checkmark success indicator */}
               <motion.span
