@@ -1613,44 +1613,6 @@ function HeroSection() {
                                                 lineNumber: 267,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].svg, {
-                                                className: "absolute -bottom-2 left-0 w-full h-3 text-primary",
-                                                viewBox: "0 0 200 12",
-                                                preserveAspectRatio: "none",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].path, {
-                                                    d: "M0 6C50 6 50 2 100 2C150 2 150 10 200 10",
-                                                    fill: "none",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "3",
-                                                    strokeLinecap: "round",
-                                                    initial: {
-                                                        pathLength: 0,
-                                                        opacity: 0
-                                                    },
-                                                    animate: {
-                                                        pathLength: 1,
-                                                        opacity: 1
-                                                    },
-                                                    transition: {
-                                                        duration: 0.8,
-                                                        delay: 1.2,
-                                                        ease: [
-                                                            0.25,
-                                                            0.4,
-                                                            0.25,
-                                                            1
-                                                        ]
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/hero-section.tsx",
-                                                    lineNumber: 280,
-                                                    columnNumber: 17
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/hero-section.tsx",
-                                                lineNumber: 275,
-                                                columnNumber: 15
-                                            }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                                                 className: "absolute -right-8 top-1/2 -translate-y-1/2 text-green-500",
                                                 initial: {
@@ -1689,17 +1651,17 @@ function HeroSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero-section.tsx",
-                                                        lineNumber: 300,
+                                                        lineNumber: 284,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero-section.tsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 283,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
-                                                lineNumber: 293,
+                                                lineNumber: 277,
                                                 columnNumber: 15
                                             }, this)
                                         ]
@@ -1743,7 +1705,7 @@ function HeroSection() {
                         children: "Somos uma agência de desenvolvimento web especializada em criar soluções digitais que convertem visitantes em clientes."
                     }, void 0, false, {
                         fileName: "[project]/components/hero-section.tsx",
-                        lineNumber: 315,
+                        lineNumber: 299,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1791,23 +1753,23 @@ function HeroSection() {
                                                 className: "ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
-                                                lineNumber: 344,
+                                                lineNumber: 328,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero-section.tsx",
-                                        lineNumber: 342,
+                                        lineNumber: 326,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero-section.tsx",
-                                    lineNumber: 337,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/hero-section.tsx",
-                                lineNumber: 332,
+                                lineNumber: 316,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1834,30 +1796,30 @@ function HeroSection() {
                                                 className: "mr-2 w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
-                                                lineNumber: 360,
+                                                lineNumber: 344,
                                                 columnNumber: 17
                                             }, this),
                                             "Ver Projetos"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero-section.tsx",
-                                        lineNumber: 359,
+                                        lineNumber: 343,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero-section.tsx",
-                                    lineNumber: 353,
+                                    lineNumber: 337,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/hero-section.tsx",
-                                lineNumber: 348,
+                                lineNumber: 332,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/hero-section.tsx",
-                        lineNumber: 326,
+                        lineNumber: 310,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1918,7 +1880,7 @@ function HeroSection() {
                                         children: stat.value
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero-section.tsx",
-                                        lineNumber: 388,
+                                        lineNumber: 372,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1926,18 +1888,18 @@ function HeroSection() {
                                         children: stat.label
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero-section.tsx",
-                                        lineNumber: 396,
+                                        lineNumber: 380,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/components/hero-section.tsx",
-                                lineNumber: 380,
+                                lineNumber: 364,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/hero-section.tsx",
-                        lineNumber: 368,
+                        lineNumber: 352,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1966,17 +1928,17 @@ function HeroSection() {
                         className: "w-1 h-2 bg-primary rounded-full mt-2"
                     }, void 0, false, {
                         fileName: "[project]/components/hero-section.tsx",
-                        lineNumber: 410,
+                        lineNumber: 394,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero-section.tsx",
-                    lineNumber: 409,
+                    lineNumber: 393,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/hero-section.tsx",
-                lineNumber: 403,
+                lineNumber: 387,
                 columnNumber: 7
             }, this)
         ]
@@ -2299,47 +2261,49 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$animations$2e$
 ;
 ;
 ;
+// Prefixo para imagens (necessário para GitHub Pages com basePath)
+const imagePrefix = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : '';
 const projects = [
     {
         title: "TechFlow App",
         category: "Sistema Web",
         description: "Plataforma de gestão de projetos com dashboard interativo e integrações.",
-        image: "/modern-dashboard-dark-theme-with-charts.jpg",
+        image: `${imagePrefix}/modern-dashboard-dark-theme-with-charts.jpg`,
         color: "from-blue-500/20"
     },
     {
         title: "Bloom Cosmetics",
         category: "E-commerce",
         description: "Loja virtual de cosméticos com experiência de compra imersiva.",
-        image: "/cosmetics-ecommerce-elegant-dark.jpg",
+        image: `${imagePrefix}/cosmetics-ecommerce-elegant-dark.jpg`,
         color: "from-pink-500/20"
     },
     {
         title: "Nexus Finance",
         category: "Landing Page",
         description: "Landing page de alta conversão para fintech com animações impactantes.",
-        image: "/fintech-landing-page-dark-modern.jpg",
+        image: `${imagePrefix}/fintech-landing-page-dark-modern.jpg`,
         color: "from-green-500/20"
     },
     {
         title: "Urban Studio",
         category: "Site Institucional",
         description: "Website para estúdio de arquitetura com galeria de projetos.",
-        image: "/architecture-portfolio-dark-minimal.jpg",
+        image: `${imagePrefix}/architecture-portfolio-dark-minimal.jpg`,
         color: "from-amber-500/20"
     },
     {
         title: "FitPro Academy",
         category: "Sistema Web",
         description: "Plataforma de aulas fitness com streaming e gestão de alunos.",
-        image: "/fitness-app-dark-theme-workout.jpg",
+        image: `${imagePrefix}/fitness-app-dark-theme-workout.jpg`,
         color: "from-red-500/20"
     },
     {
         title: "Legal Partners",
         category: "Site Institucional",
         description: "Website corporativo para escritório de advocacia com formulário de casos.",
-        image: "/law-firm-website-dark-professional.jpg",
+        image: `${imagePrefix}/law-firm-website-dark-professional.jpg`,
         color: "from-indigo-500/20"
     }
 ];
@@ -2396,7 +2360,7 @@ function PortfolioSection() {
                                     children: "Portfólio"
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio-section.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -2406,7 +2370,7 @@ function PortfolioSection() {
                                         "Trabalhos",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 93,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2414,19 +2378,19 @@ function PortfolioSection() {
                                             children: "selecionados"
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio-section.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/portfolio-section.tsx",
-                            lineNumber: 73,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2440,13 +2404,13 @@ function PortfolioSection() {
                             children: "Conheça alguns dos projetos que desenvolvemos para clientes de diversos segmentos."
                         }, void 0, false, {
                             fileName: "[project]/components/portfolio-section.tsx",
-                            lineNumber: 94,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/portfolio-section.tsx",
-                    lineNumber: 69,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2479,7 +2443,7 @@ function PortfolioSection() {
                                     className: "relative aspect-[4/3] overflow-hidden",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].img, {
-                                            src: project.image || "/placeholder.svg",
+                                            src: project.image || `${imagePrefix}/placeholder.svg`,
                                             alt: project.title,
                                             className: "w-full h-full object-cover",
                                             animate: {
@@ -2496,14 +2460,14 @@ function PortfolioSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 132,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: `absolute inset-0 bg-gradient-to-t ${project.color} to-transparent opacity-60`
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 138,
+                                            lineNumber: 141,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2537,31 +2501,31 @@ function PortfolioSection() {
                                                         children: "Ver Projeto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/portfolio-section.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 159,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/portfolio-section.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 160,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/portfolio-section.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 150,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 141,
+                                            lineNumber: 144,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio-section.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 131,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2589,7 +2553,7 @@ function PortfolioSection() {
                                                     children: project.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio-section.tsx",
-                                                    lineNumber: 165,
+                                                    lineNumber: 168,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2606,18 +2570,18 @@ function PortfolioSection() {
                                                         className: `w-5 h-5 transition-colors duration-300 ${isHovered ? "text-primary" : "text-muted-foreground"}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/portfolio-section.tsx",
-                                                        lineNumber: 181,
+                                                        lineNumber: 184,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/portfolio-section.tsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 177,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 164,
+                                            lineNumber: 167,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2625,7 +2589,7 @@ function PortfolioSection() {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 188,
+                                            lineNumber: 191,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2633,13 +2597,13 @@ function PortfolioSection() {
                                             children: project.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/portfolio-section.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 194,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/portfolio-section.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 166,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2652,30 +2616,30 @@ function PortfolioSection() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/portfolio-section.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 198,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/components/portfolio-section.tsx",
-                            lineNumber: 117,
+                            lineNumber: 120,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/portfolio-section.tsx",
-                    lineNumber: 106,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/portfolio-section.tsx",
-            lineNumber: 67,
+            lineNumber: 70,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/portfolio-section.tsx",
-        lineNumber: 66,
+        lineNumber: 69,
         columnNumber: 5
     }, this);
 }
