@@ -5567,9 +5567,17 @@ const normalizePathTrailingSlash = (path)=>{
         return path;
     }
     const { pathname, query, hash } = (0, _parsepath.parsePath)(path);
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (/\.[^/]+\/?$/.test(pathname)) {
+            return `${(0, _removetrailingslash.removeTrailingSlash)(pathname)}${query}${hash}`;
+        } else if (pathname.endsWith('/')) {
+            return `${pathname}${query}${hash}`;
+        } else {
+            return `${pathname}/${query}${hash}`;
+        }
+    }
+    //TURBOPACK unreachable
     ;
-    return `${(0, _removetrailingslash.removeTrailingSlash)(pathname)}${query}${hash}`;
 };
 if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
     Object.defineProperty(exports.default, '__esModule', {
@@ -6086,7 +6094,7 @@ var EntryStatus = /*#__PURE__*/ function(EntryStatus) {
     EntryStatus[EntryStatus["Rejected"] = 3] = "Rejected";
     return EntryStatus;
 }({});
-const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", void 0) === 'export';
+const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", "export") === 'export';
 const MetadataOnlyRequestTree = [
     '',
     {},

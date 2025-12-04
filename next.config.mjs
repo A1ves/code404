@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
@@ -8,9 +10,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Se for publicar em subdiretório (ex: username.github.io/code404)
-  basePath: '/code404',
-  assetPrefix: '/code404',
+  // Aplica basePath apenas em produção (GitHub Pages)
+  basePath: isProd ? '/code404' : '',
+  assetPrefix: isProd ? '/code404' : '',
 }
 
 export default nextConfig
