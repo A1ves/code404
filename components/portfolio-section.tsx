@@ -5,47 +5,50 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { ArrowUpRight, ExternalLink } from "lucide-react"
 import { fadeInUp, fadeIn, fadeInLeft, staggerContainer } from "@/components/animations"
 
+// Prefixo para imagens (necessário para GitHub Pages com basePath)
+const imagePrefix = process.env.NODE_ENV === 'production' ? '/code404' : ''
+
 const projects = [
   {
     title: "TechFlow App",
     category: "Sistema Web",
     description: "Plataforma de gestão de projetos com dashboard interativo e integrações.",
-    image: "/modern-dashboard-dark-theme-with-charts.jpg",
+    image: `${imagePrefix}/modern-dashboard-dark-theme-with-charts.jpg`,
     color: "from-blue-500/20",
   },
   {
     title: "Bloom Cosmetics",
     category: "E-commerce",
     description: "Loja virtual de cosméticos com experiência de compra imersiva.",
-    image: "/cosmetics-ecommerce-elegant-dark.jpg",
+    image: `${imagePrefix}/cosmetics-ecommerce-elegant-dark.jpg`,
     color: "from-pink-500/20",
   },
   {
     title: "Nexus Finance",
     category: "Landing Page",
     description: "Landing page de alta conversão para fintech com animações impactantes.",
-    image: "/fintech-landing-page-dark-modern.jpg",
+    image: `${imagePrefix}/fintech-landing-page-dark-modern.jpg`,
     color: "from-green-500/20",
   },
   {
     title: "Urban Studio",
     category: "Site Institucional",
     description: "Website para estúdio de arquitetura com galeria de projetos.",
-    image: "/architecture-portfolio-dark-minimal.jpg",
+    image: `${imagePrefix}/architecture-portfolio-dark-minimal.jpg`,
     color: "from-amber-500/20",
   },
   {
     title: "FitPro Academy",
     category: "Sistema Web",
     description: "Plataforma de aulas fitness com streaming e gestão de alunos.",
-    image: "/fitness-app-dark-theme-workout.jpg",
+    image: `${imagePrefix}/fitness-app-dark-theme-workout.jpg`,
     color: "from-red-500/20",
   },
   {
     title: "Legal Partners",
     category: "Site Institucional",
     description: "Website corporativo para escritório de advocacia com formulário de casos.",
-    image: "/law-firm-website-dark-professional.jpg",
+    image: `${imagePrefix}/law-firm-website-dark-professional.jpg`,
     color: "from-indigo-500/20",
   },
 ]
@@ -127,7 +130,7 @@ export default function PortfolioSection() {
                 {/* Image */}
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <motion.img
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || `${imagePrefix}/placeholder.svg`}
                     alt={project.title}
                     className="w-full h-full object-cover"
                     animate={{
