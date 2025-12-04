@@ -9,7 +9,7 @@
     "typedRoutes": false,
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "",
+    "assetPrefix": "/code404",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.mjs",
     "useFileSystemPublicRoutes": true,
@@ -42,7 +42,7 @@
         256,
         384
       ],
-      "path": "/_next/image/",
+      "path": "/code404/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -75,7 +75,7 @@
       "maxInactiveAge": 60000,
       "pagesBufferLength": 5
     },
-    "basePath": "",
+    "basePath": "/code404",
     "sassOptions": {},
     "trailingSlash": true,
     "i18n": null,
