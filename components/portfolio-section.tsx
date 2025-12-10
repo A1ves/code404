@@ -5,8 +5,8 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { ArrowUpRight, ExternalLink } from "lucide-react"
 import { fadeInUp, fadeIn, fadeInLeft, staggerContainer } from "@/components/animations"
 
-// Prefixo para imagens (necessário para GitHub Pages com basePath)
-const imagePrefix = process.env.NODE_ENV === 'production' ? '/code404' : ''
+// Prefixo para imagens - use variável de ambiente GITHUB_PAGES=true para GitHub Pages
+const imagePrefix = process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES === 'true' ? '/code404' : ''
 
 const projects = [
   {
