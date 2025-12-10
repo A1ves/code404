@@ -51,7 +51,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./out/
-          server-dir: /public_html/   # ajuste se for /public_html/meusite/ ou outro
+          server-dir: public_html/   # ajuste se for /public_html/meusite/ ou outro
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
