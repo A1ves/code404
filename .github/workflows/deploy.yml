@@ -2,9 +2,9 @@
 name: Deploy Next.js to GitHub Pages and FTP
 
 on:
-  # Executa no push para a branch main
+  # Executa no push para as branches main e ayron-dev
   push:
-    branches: ["main"]
+    branches: ["main", "ayron-dev"]
   # Permite executar manualmente
   workflow_dispatch:
 
@@ -41,7 +41,9 @@ jobs:
 
       - name: Build Next.js
         run: npm run build
-        # certifique-se de que "npm run build" = "next build && next export"
+        env:
+          NODE_ENV: production
+          GITHUB_PAGES: false
 
       - name: Listar conteúdo da pasta out
         run: |
