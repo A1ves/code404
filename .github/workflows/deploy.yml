@@ -1,5 +1,5 @@
-# Workflow para deploy do Next.js no GitHub Pages
-name: Deploy Next.js to GitHub Pages
+# Workflow para deploy do Next.js no GitHub Pages e FTP
+name: Deploy Next.js to GitHub Pages and FTP
 
 on:
   # Executa no push para a branch main
@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Job de Build
+  # Job de Build + Deploy via FTP
   build:
     runs-on: ubuntu-latest
     steps:
@@ -41,13 +41,24 @@ jobs:
 
       - name: Build Next.js
         run: npm run build
+        # certifique-se de que "npm run build" = "next build && next export"
+
+      # 🔹 NOVO: Deploy via FTP usando a pasta ./out
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./out
+          server-dir: /public_html/   # ajuste se for /public_html/meusite/ ou outro
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
-  # Job de Deploy
+  # Job de Deploy no GitHub Pages (usa o artifact gerado acima)
   deploy:
     environment:
       name: github-pages
