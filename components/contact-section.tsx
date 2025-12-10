@@ -116,8 +116,8 @@ export default function ContactSection() {
           >
             <motion.form 
               onSubmit={handleSubmit} 
-              className="bg-card border border-border rounded-2xl p-8"
-              whileHover={{ borderColor: "rgba(var(--primary), 0.3)" }}
+              className="bg-card border border-border transition-colors duration-300 rounded-2xl p-8"
+              whileHover={{ borderColor: "#f0532a" }}
               transition={{ duration: 0.3 }}
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -294,35 +294,6 @@ export default function ContactSection() {
                   )
                 })}
               </div>
-            </motion.div>
-
-            {/* Quick CTA */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.6 }}
-              whileHover={{ scale: 1.02 }}
-              className="mt-8 p-6 bg-gradient-to-br from-primary/10 to-primary/5 border border-primary/20 rounded-2xl"
-            >
-              <h3 className="text-lg font-bold text-foreground mb-2">Prefere um contato rápido?</h3>
-              <p className="text-sm text-muted-foreground mb-4">Responderemos em até 24 horas úteis.</p>
-              <motion.div
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ type: "spring", stiffness: 400, damping: 17 }}
-              >
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full bg-transparent"
-                >
-                  <a href="mailto:contato@code404.com.br">
-                    <Mail className="mr-2 w-4 h-4" />
-                    contato@code404.com.br
-                  </a>
-                </Button>
-              </motion.div>
             </motion.div>
           </motion.div>
         </div>
