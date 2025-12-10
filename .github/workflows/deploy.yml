@@ -43,6 +43,11 @@ jobs:
         run: npm run build
         # certifique-se de que "npm run build" = "next build && next export"
 
+      - name: Listar conteúdo da pasta out
+        run: |
+          echo "Conteúdo da pasta ./out:"
+          ls -R ./out || echo "⚠️ Pasta ./out não existe"
+
       # 🔹 NOVO: Deploy via FTP usando a pasta ./out
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
