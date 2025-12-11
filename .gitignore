@@ -1,3 +1,5 @@
 node_modules
 /out
 /.env.next/
+.next
+.DS_Store
