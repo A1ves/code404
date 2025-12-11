@@ -63,7 +63,7 @@ export default function Footer() {
           <motion.div variants={fadeInUp}>
             <h4 className="text-foreground font-semibold mb-4">Serviços</h4>
             <ul className="space-y-3">
-              {footerLinks.servicos.map((link, index) => (
+              {footerLinks.servicos.map(( link, index) => (
                 <motion.li
                   key={index}
                   initial={{ opacity: 0, x: -10 }}

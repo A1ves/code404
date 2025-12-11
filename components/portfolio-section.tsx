@@ -10,11 +10,12 @@ const imagePrefix = process.env.NODE_ENV === 'production' && process.env.GITHUB_
 
 const projects = [
   {
-    title: "TechFlow App",
-    category: "Sistema Web",
-    description: "Plataforma de gestão de projetos com dashboard interativo e integrações.",
-    image: `${imagePrefix}/modern-dashboard-dark-theme-with-charts.jpg`,
+    title: "Burgueirismo",
+    category: "Hamburgueria",
+    description: "Plataforma de pedidos para hamburgueria, com detalhes minimalista e animações.",
+    image: `${imagePrefix}/burgueirismo-site.png`,
     color: "from-blue-500/20",
+    url: "https://burgueirismo.code404.com.br",
   },
   {
     title: "Bloom Cosmetics",
@@ -22,6 +23,7 @@ const projects = [
     description: "Loja virtual de cosméticos com experiência de compra imersiva.",
     image: `${imagePrefix}/cosmetics-ecommerce-elegant-dark.jpg`,
     color: "from-pink-500/20",
+    url: "https://bloomcosmetics.code404.com.br",
   },
   {
     title: "Nexus Finance",
@@ -29,6 +31,7 @@ const projects = [
     description: "Landing page de alta conversão para fintech com animações impactantes.",
     image: `${imagePrefix}/fintech-landing-page-dark-modern.jpg`,
     color: "from-green-500/20",
+    url: "https://nexusfinance.code404.com.br",
   },
   {
     title: "Urban Studio",
@@ -123,6 +126,7 @@ export default function PortfolioSection() {
                 custom={index}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
+                onClick={() => project.url && window.open(project.url, '_blank', 'noopener,noreferrer')}
                 whileHover={{ y: -12 }}
                 transition={{ type: "spring", stiffness: 400, damping: 25 }}
                 className="group relative bg-card border border-border rounded-2xl overflow-hidden cursor-pointer"
