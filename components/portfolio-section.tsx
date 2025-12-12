@@ -18,12 +18,12 @@ const projects = [
     url: "https://burgueirismo.code404.com.br",
   },
   {
-    title: "Bloom Cosmetics",
-    category: "E-commerce",
-    description: "Loja virtual de cosméticos com experiência de compra imersiva.",
-    image: `${imagePrefix}/cosmetics-ecommerce-elegant-dark.jpg`,
+    title: "Café Serra",
+    category: "Cafeteria",
+    description: "Loja virtual de de cafés.",
+    image: `${imagePrefix}/cafeteriaserra.png`,
     color: "from-pink-500/20",
-    url: "https://bloomcosmetics.code404.com.br",
+    url: "https://cafeteriaserra.code404.com.br",
   },
   {
     title: "Nexus Finance",
