@@ -26,12 +26,12 @@ const projects = [
     url: "https://cafeteriaserra.code404.com.br",
   },
   {
-    title: "Nexus Finance",
-    category: "Landing Page",
-    description: "Landing page de alta conversão para fintech com animações impactantes.",
-    image: `${imagePrefix}/fintech-landing-page-dark-modern.jpg`,
+    title: "Aurora Confeitaria",
+    category: "Confeitaria",
+    description: "Landing page de alta conversão para confeitaria com animações impactantes.",
+    image: `${imagePrefix}/auroraconfeitaria.png`,
     color: "from-green-500/20",
-    url: "https://nexusfinance.code404.com.br",
+    url: "https://auroraconfeitaria.code404.com.br",
   },
   {
     title: "Urban Studio",
