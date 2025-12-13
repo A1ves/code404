@@ -134,7 +134,7 @@ export default function PortfolioSection() {
                 className="group relative bg-card border border-border rounded-2xl overflow-hidden cursor-pointer"
               >
                 {/* Image */}
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-[16/9] overflow-hidden">
                   <motion.img
                     src={project.image || `${imagePrefix}/placeholder.svg`}
                     alt={project.title}
