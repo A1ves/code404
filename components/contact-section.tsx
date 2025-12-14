@@ -65,7 +65,7 @@ export default function ContactSection() {
     <section id="contato" ref={sectionRef} className="py-24 md:py-32 relative overflow-hidden">
       {/* Background with Parallax */}
       <motion.div 
-        className="absolute inset-0 bg-gradient-to-t from-primary/5 via-background to-background"
+        className="absolute inset-0"
         style={{ y: backgroundY }}
       />
       <motion.div 
