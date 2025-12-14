@@ -86,7 +86,7 @@ export default function AboutSection() {
               className="text-lg text-muted-foreground leading-relaxed mb-8"
             >
               Somos uma agência de desenvolvimento web apaixonada por transformar ideias em experiências digitais
-              memoráveis. Com mais de 5 anos no mercado, combinamos criatividade, tecnologia e estratégia para entregar
+              memoráveis. Com experiência e precisão, combinamos criatividade, tecnologia e estratégia para entregar
               resultados que superam expectativas.
             </motion.p>
             <motion.p
@@ -169,9 +169,9 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.6, type: "spring", stiffness: 400, damping: 17 }}
                 >
-                  50+
+                  Precisão
                 </motion.div>
-                <div className="text-sm text-muted-foreground">Projetos</div>
+                <div className="text-sm text-muted-foreground">e qualidade</div>
               </motion.div>
               <motion.div
                 className="absolute -bottom-2 -left-2 bg-card border border-border rounded-2xl p-3 shadow-xl"
@@ -188,9 +188,9 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.7, type: "spring", stiffness: 400, damping: 17 }}
                 >
-                  5+
+                  UI/UX
                 </motion.div>
-                <div className="text-sm text-muted-foreground">Anos</div>
+                <div className="text-sm text-muted-foreground">Design e protótipo</div>
               </motion.div>
             </div>
           </motion.div>

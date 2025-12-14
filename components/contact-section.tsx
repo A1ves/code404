@@ -25,14 +25,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Localização",
-    value: "São Paulo, Brasil",
+    value: "Brasil",
     href: "#",
   },
 ]
 
 const socialLinks = [
   { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Instagram, label: "Instagram", href: "#" },
+  { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/code404dev/" },
   { icon: Github, label: "GitHub", href: "#" },
 ]
 
