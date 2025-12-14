@@ -2,12 +2,12 @@
 
 import type React from "react"
 import { useEffect, useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { type Variants, motion, useScroll, useTransform } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Code2, Sparkles } from "lucide-react"
 import { AnimatedCharacters, fadeInUp, staggerContainer } from "@/components/animations"
 
-export default function HeroSection() {
+export default function HeroSection({ introDone = true }: { introDone?: boolean }) {
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -17,6 +17,26 @@ export default function HeroSection() {
   const y = useTransform(scrollYProgress, [0, 1], [0, 200])
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
   const scale = useTransform(scrollYProgress, [0, 0.5], [1, 0.95])
+
+  const introContainer: Variants = {
+    hidden: {},
+    visible: {
+      transition: {
+        // deixa o "zoom in" mais lento e em ordem: título -> subtítulo -> campos
+        staggerChildren: 0.45,
+        delayChildren: 0.35,
+      },
+    },
+  }
+
+  const introItem: Variants = {
+    hidden: { opacity: 0, scale: 0.92 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 1.1, ease: [0.25, 0.4, 0.25, 1] },
+    },
+  }
 
   useEffect(() => {
     const container = containerRef.current
@@ -82,16 +102,17 @@ export default function HeroSection() {
         style={{ opacity }}
       />
 
-      <motion.div 
+      <motion.div
         className="relative z-10 max-w-7xl mx-auto px-6 text-center"
-        style={{ y, opacity, scale }}
+        style={{ y, opacity }}
+        variants={introContainer}
+        initial="hidden"
+        animate={introDone ? "visible" : "hidden"}
       >
 
         {/* Main Heading */}
         <motion.h1
-          initial="hidden"
-          animate="visible"
-          variants={staggerContainer}
+          variants={introItem}
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-6"
         >
           <motion.span 
@@ -297,9 +318,7 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
+          variants={introItem}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           Somos uma agência de desenvolvimento web especializada em criar soluções digitais que convertem visitantes em
@@ -308,9 +327,7 @@ export default function HeroSection() {
 
         {/* CTA Buttons */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
+          variants={introItem}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <motion.div
@@ -350,9 +367,7 @@ export default function HeroSection() {
 
         {/* Stats */}
         <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={staggerContainer}
+          variants={introItem}
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
         >
           {[
@@ -363,20 +378,13 @@ export default function HeroSection() {
           ].map((stat, index) => (
             <motion.div
               key={index}
-              variants={fadeInUp}
-              custom={index}
               className="text-center group"
               whileHover={{ y: -5 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <motion.div 
-                className="text-3xl md:text-4xl font-bold text-foreground group-hover:text-primary transition-colors duration-300"
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.8 + index * 0.1, duration: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
-              >
+              <div className="text-3xl md:text-4xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
                 {stat.value}
-              </motion.div>
+              </div>
               <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
             </motion.div>
           ))}
