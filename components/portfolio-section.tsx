@@ -106,7 +106,7 @@ export default function PortfolioSection() {
             variants={fadeInLeft}
             className="text-lg text-muted-foreground max-w-md leading-relaxed"
           >
-            Conheça alguns dos projetos que desenvolvemos para clientes de diversos segmentos.
+            Conheça alguns dos projetos que desenvolvemos para diferentes segmentos.
           </motion.p>
         </motion.div>
 
