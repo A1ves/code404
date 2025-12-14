@@ -186,7 +186,7 @@ export default function ContactSection() {
               >
                 <Button
                   type="submit"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6 text-lg group transition-all duration-300"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6 text-lg group transition-all duration-300 cursor-pointer"
                   disabled={isSubmitted}
                 >
                   <AnimatePresence mode="wait">

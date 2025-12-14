@@ -204,7 +204,7 @@ export default function PortfolioSection() {
                 <motion.div
                   className="absolute inset-0 rounded-2xl border-2 border-primary/0 pointer-events-none"
                   animate={{
-                    borderColor: isHovered ? "rgba(var(--primary), 0.3)" : "rgba(var(--primary), 0)",
+                    borderColor: isHovered ? "var(--primary)" : "var(--primary)",
                   }}
                   transition={{ duration: 0.3 }}
                 />
