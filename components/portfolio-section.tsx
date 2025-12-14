@@ -4,6 +4,7 @@ import { useRef, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { ArrowUpRight, ExternalLink } from "lucide-react"
 import { fadeInUp, fadeIn, fadeInLeft, staggerContainer } from "@/components/animations"
+import { url } from "inspector"
 
 // Prefixo para imagens - use variável de ambiente GITHUB_PAGES=true para GitHub Pages
 const imagePrefix = process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES === 'true' ? '/code404' : ''
@@ -14,15 +15,15 @@ const projects = [
     category: "Hamburgueria",
     description: "Plataforma de pedidos para hamburgueria, com detalhes minimalista e animações.",
     image: `${imagePrefix}/burgueirismo-site.png`,
-    color: "from-blue-500/20",
+    color: "from-yellow-500/20",
     url: "https://burgueirismo.code404.com.br",
   },
   {
     title: "Café Serra",
     category: "Cafeteria",
-    description: "Loja virtual de de cafés.",
+    description: "Loja virtual de cafés.",
     image: `${imagePrefix}/cafeteriaserra.png`,
-    color: "from-pink-500/20",
+    color: "from-green-500/20",
     url: "https://cafeteriaserra.code404.com.br",
   },
   {
@@ -30,15 +31,16 @@ const projects = [
     category: "Confeitaria",
     description: "Landing page de alta conversão para confeitaria com animações impactantes.",
     image: `${imagePrefix}/auroraconfeitaria.png`,
-    color: "from-green-500/20",
+    color: "from-brown-500/20",
     url: "https://auroraconfeitaria.code404.com.br",
   },
   {
-    title: "Urban Studio",
+    title: "Tage",
     category: "Site Institucional",
-    description: "Website para estúdio de arquitetura com galeria de projetos.",
-    image: `${imagePrefix}/architecture-portfolio-dark-minimal.jpg`,
-    color: "from-amber-500/20",
+    description: "Website para agencia de marketing.",
+    image: `${imagePrefix}/tagesite.png`,
+    color: "from-purple-500/20",
+    url: "https://tage.code404.com.br",
   },
   {
     title: "FitPro Academy",
@@ -132,13 +134,13 @@ export default function PortfolioSection() {
                 className="group relative bg-card border border-border rounded-2xl overflow-hidden cursor-pointer"
               >
                 {/* Image */}
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-[16/9] overflow-hidden">
                   <motion.img
                     src={project.image || `${imagePrefix}/placeholder.svg`}
                     alt={project.title}
                     className="w-full h-full object-cover"
                     animate={{
-                      scale: isHovered ? 1.1 : 1,
+                      scale: isHovered ? 1.1 : 0.98,
                     }}
                     transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
                   />

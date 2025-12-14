@@ -44,23 +44,20 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <motion.a 
-            href="#" 
+            href="/" 
             className="flex items-center gap-2 group"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
           >
-            <motion.div 
-              className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center"
-              whileHover={{ scale: 1.1, rotate: 5 }}
+            <motion.div
+              className="w-10 h-10 flex items-center justify-center"
+              whileHover={{ scale: 1.1, rotate: 0 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <span className="text-primary-foreground font-bold text-lg">4</span>
+              <img src="/LOGOCODE-LRJ.png" alt="Logo" className="w-10 h-10 object-contain" />
             </motion.div>
-            <span className="text-xl font-bold text-foreground">
-              Code<span className="text-primary">404</span>
-            </span>
           </motion.a>
 
           {/* Desktop Navigation */}

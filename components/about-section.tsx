@@ -138,37 +138,24 @@ export default function AboutSection() {
           >
             <div className="relative aspect-square max-w-md mx-auto">
               {/* Main Image/Visual */}
-              <motion.div
-                className="absolute inset-4 bg-gradient-to-br from-primary/20 to-primary/5 rounded-3xl border border-primary/20"
-                whileHover={{ scale: 1.02 }}
-                transition={{ type: "spring", stiffness: 400, damping: 17 }}
-              />
+              {/* Fundo removido para tirar o laranja */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <motion.div
-                    className="text-8xl md:text-9xl font-bold text-primary/20"
+                <div className="flex items-center justify-center">
+                  <motion.img
+                    src="/LOGOCODE-TEXT.png"
+                    alt="Logo LRJ"
+                    className="w-64 h-64 md:w-96 md:h-96 object-contain"
                     initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
-                  >
-                    404
-                  </motion.div>
-                  <motion.div
-                    className="text-2xl font-bold text-foreground -mt-4"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.3, duration: 0.6 }}
-                  >
-                    Error? No, <span className="text-primary">Experience!</span>
-                  </motion.div>
+                  />
                 </div>
               </div>
 
               {/* Floating Stats */}
               <motion.div
-                className="absolute -top-4 -right-4 bg-card border border-border rounded-2xl p-4 shadow-xl"
+                className="absolute -top-2 -right-2 bg-card border border-border rounded-2xl p-3 shadow-xl"
                 initial={{ opacity: 0, x: 20, y: -20 }}
                 whileInView={{ opacity: 1, x: 0, y: 0 }}
                 viewport={{ once: true }}
@@ -187,7 +174,7 @@ export default function AboutSection() {
                 <div className="text-sm text-muted-foreground">Projetos</div>
               </motion.div>
               <motion.div
-                className="absolute -bottom-4 -left-4 bg-card border border-border rounded-2xl p-4 shadow-xl"
+                className="absolute -bottom-2 -left-2 bg-card border border-border rounded-2xl p-3 shadow-xl"
                 initial={{ opacity: 0, x: -20, y: 20 }}
                 whileInView={{ opacity: 1, x: 0, y: 0 }}
                 viewport={{ once: true }}
