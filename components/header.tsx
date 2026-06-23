@@ -37,7 +37,7 @@ export default function Header() {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: [0.25, 0.4, 0.25, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled ? "bg-background/80 backdrop-blur-xl border-b border-border" : "bg-transparent"
+        isScrolled || isMobileMenuOpen ? "bg-background/95 backdrop-blur-xl border-b border-border" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
@@ -105,7 +105,6 @@ export default function Header() {
               >
                 <a href="#contato">
                   Fale Conosco
-                  <span className="ml-2 w-2 h-2 bg-primary-foreground rounded-full inline-block" />
                 </a>
               </Button>
             </motion.div>
@@ -153,7 +152,7 @@ export default function Header() {
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-              className="md:hidden overflow-hidden"
+              className="md:hidden overflow-hidden bg-background"
             >
               <motion.div 
                 className="flex flex-col gap-4 py-4 border-t border-border mt-4"

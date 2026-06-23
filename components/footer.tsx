@@ -18,9 +18,8 @@ const footerLinks = {
   ],
   social: [
     { name: "LinkedIn", href: "#" },
-    { name: "Instagram", href: "#" },
+    { name: "Instagram", href: "https://www.instagram.com/code404dev/" },
     { name: "GitHub", href: "#" },
-    { name: "Dribbble", href: "#" },
   ],
 }
 
@@ -38,24 +37,21 @@ export default function Footer() {
           {/* Brand */}
           <motion.div variants={fadeInUp} className="lg:col-span-1">
             <motion.a 
-              href="#" 
+              href="#servicos" 
               className="flex items-center gap-2 mb-4"
               whileHover={{ x: 5 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
               <motion.div 
-                className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center"
-                whileHover={{ scale: 1.1, rotate: 5 }}
+                className="flex items-center justify-center"
+                whileHover={{ scale: 1.05}}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                <span className="text-primary-foreground font-bold text-lg">4</span>
+                <img src="/LOGOCODE-LRJ.png" alt="Logo Code404" className="w-32 h-32 align-top object-contain" />
               </motion.div>
-              <span className="text-xl font-bold text-foreground">
-                Code<span className="text-primary">404</span>
-              </span>
             </motion.a>
             <p className="text-muted-foreground leading-relaxed">
-              Transformando erros em experiências digitais memoráveis desde 2019.
+              Transformando erros em experiências digitais memoráveis.
             </p>
           </motion.div>
 

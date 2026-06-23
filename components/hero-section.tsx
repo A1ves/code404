@@ -371,10 +371,10 @@ export default function HeroSection({ introDone = true }: { introDone?: boolean 
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
         >
           {[
-            { value: "50+", label: "Projetos Entregues" },
-            { value: "98%", label: "Clientes Satisfeitos" },
-            { value: "5+", label: "Anos de Experiência" },
-            { value: "24h", label: "Suporte Dedicado" },
+            { value: "SEO", label: "Páginas focadas em conversão" },
+            { value: "Sites", label: "Sites institucionais e corporativos" },
+            { value: "UI/UX", label: "Design e código no mesmo lugar" },
+            { value: "Suporte", label: "Acompanhamento pós-lançamento" },
           ].map((stat, index) => (
             <motion.div
               key={index}

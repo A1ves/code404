@@ -25,14 +25,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Localização",
-    value: "São Paulo, Brasil",
+    value: "Brasil",
     href: "#",
   },
 ]
 
 const socialLinks = [
   { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Instagram, label: "Instagram", href: "#" },
+  { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/code404dev/" },
   { icon: Github, label: "GitHub", href: "#" },
 ]
 
@@ -186,7 +186,7 @@ export default function ContactSection() {
               >
                 <Button
                   type="submit"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6 text-lg group transition-all duration-300"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6 text-lg group transition-all duration-300 cursor-pointer"
                   disabled={isSubmitted}
                 >
                   <AnimatePresence mode="wait">
